@@ -1,0 +1,89 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(75, 73, 73);
+    color: whitesmoke;
+    padding: 16px;
+}
+
+footer{
+    background-color: rgb(75, 73, 73);
+    color: whitesmoke;
+    padding: 16.1px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+main {
+    margin: 32px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 16px;
+    justify-items: center;
+}
+
+.cat-image {
+    width: 289px; 
+    height: 250px; 
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 5px;
+    transition:  0.2s;
+}
+
+.cat-image:hover {
+    transform: scale(1.1);
+}
+
+.like-button {
+    background-color: rgb(216, 211, 211);
+    color: whitesmoke; 
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.like-button {
+    background-color: gray; 
+    color: whitesmoke; 
+    border: none;
+    border-radius: 10px;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.like-button:hover {
+    background-color: rgb(179, 176, 176); 
+}
+.cat-container {
+    width: 270px;
+    margin-bottom: 16px;
+    border: 2px solid rgb(209, 207, 207); 
+    border-radius: 7px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background-color: gray;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#filters {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
